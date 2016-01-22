@@ -22,6 +22,13 @@ These lines are exposed:
     }
 ```
 
+After changing the above lines, the application can be run issuing the following command:
+
+```
+$ cd <<project directory>>
+$ ./gradlew run
+```
+
 
 
 

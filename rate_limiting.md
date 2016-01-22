@@ -1,0 +1,3 @@
+# Rate Limiting in Twitter API
+
+Because Twitter's API is almost real time, network traffic is quite extensive and thus needs to be managed. This is done by twitter by putting on rate limits on access to the server. Twitter applies rate limits within 15 minute intervals. For instance, Twitter limits search to 180 queries (per 15 minute interval). If you go beyond that set quota within 15 minutes, the server will reject the request. It will only allow you to successfully do the query after the 15 minute slice expires wherein your usage count is reset.
