@@ -1,0 +1,5 @@
+rootProject.name = 'TwitterExercise'
+include 'functional'
+include 'dbc'
+include 'rest'
+

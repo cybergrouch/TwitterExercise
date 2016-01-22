@@ -1,0 +1,23 @@
+group 'com.lange.twitterexercise'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":dbc")
+    compile project(":functional")
+    compile project(":rest")
+
+    compile 'com.google.guava:guava:19.0'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+mainClassName = 'com.lange.twitterexercise.Main'
